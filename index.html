@@ -5,162 +5,232 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="body.css">
-  <title>Hitheshsundararajan-Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <title>Hithesh Sundararajan</title>
 </head>
 
-<body>
-  <header>
-    <nav>
-      <ul>
-        <div class="nav-list">
-          <li><a href="#" class="title-tag ">HITHESH SUNDARARAJAN</a></li>
-        </div>
-        <div class="nav-list">
-          <li><a href="#" class="nav-list-items">Home</a></li>
-          <li><a href="#section2" class="nav-list-items">About</a></li>
-          <li><a href="#section1" class="nav-list-items">Projects</a></li>
-          <li><a href="#section3" class="nav-list-items">Contact</a></li>
-        </div>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <div class="home-container">
-      <div class="home-left-container">
-        <div>Hi,</div>
-        <div>I am <span>Hithesh,</span></div>
-        <div>Computer Science and Business System</div>
-        <p>I’m a self-motivated Computer Science and Business System student with strong analytical, time management, and communication skills, passionate about business analytics, web development, and real-world tech solutions. </p>
-        <button><a href="#section2">More About Me</a></button>
-      </div>
-      <div class="home-right-container">
-        <img src="https://i.postimg.cc/XJ7PCdHW/Whats-App-Image-2025-12-07-at-9-10-18-PM.jpg" alt="Picture">
-      </div>
-    </div>
-    <hr>
-    <section class="more-info-section" id="section2">
-      <div class="resume-container">
-        <!-- Left Sidebar -->
-        <div class="sidebar">
-          <div class="profile-picture">
-            <img src="https://i.postimg.cc/XJ7PCdHW/Whats-App-Image-2025-12-07-at-9-10-18-PM.jpg" alt="Profile Picture">
-          </div>
-          <div class="contact">
-            <h2>Contact</h2>
-            <p><strong>Phone : </strong>+91-6381188916</p>
-            <p><strong>Email : </strong>vshithesh@gmail.com</p>
-            <p><strong>City : </strong>Chennai</p>
-          </div>
-          <div class="education">
-            <h2>Education</h2>
-            <p><strong>loyola matriculation school kodambakkam
-              </strong></p>
-            <p>(2008-2022)</p>
-            <p><strong>Computer Science and Business System</strong> 
-              </strong></p>
-            <p>SRM Institute of Science and Technology</p>
-              2022-2026
-            </p>
-          </div>
-          <div class="expertise">
-            <h2>Expertise</h2>
-            <p>Business Analytics</p>
-            <p>Project Management</p>
-            <p>Web Development (HTML, CSS, JS)</p>
-            <p>Data Visualization (Power BI)</p>
-          </div>
-          <div class="language">
-            <h2>Language</h2>
-            <p>English</p>
-            <p>Tamil</p>
-          </div>
-        </div>
+<body class="dark-theme">
+  <!-- Noise overlay for premium texture -->
+  <div class="noise"></div>
 
-        <!-- Main Content -->
-        <div class="main-content">
-          <div class="profile">
-            <h1>Hitheshsundararajan</h1>
-            <h3>Computer science and business system  </h3>
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#" class="logo">HITHESH<span class="dot">.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about" class="nav-item">About</a></li>
+        <li><a href="#projects" class="nav-item">Work</a></li>
+        <li><a href="#experience" class="nav-item">Experience</a></li>
+        <li><a href="#contact" class="nav-item">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <div class="badge">Available for Work</div>
+          <h1 class="reveal-text"><span>Data Analytics</span> <br /> <span>& Software Engineering.</span></h1>
+          <p class="hero-desc fade-in">I am Hithesh, a Computer Science & Business System student passionate about
+            transforming data into actionable insights and building robust web architectures.</p>
+          <div class="hero-actions fade-in">
+            <a href="#projects" class="btn btn-primary">View Projects <i class="ri-arrow-right-line"></i></a>
+            <a href="mailto:vshithesh@gmail.com" class="btn btn-outline">Let's Talk <i class="ri-mail-line"></i></a>
           </div>
-          <div class="work-experience">
-            <h2>Accomplishments</h2>
-            <div class="experience-item">
-              <h3>Aide et action </h3>
-              <!-- <p><strong>Client Manager in a Ballet Studio</strong></p> -->
-              <ul>
-                <li><span>1. </span>Conducted career-building workshops for underprivileged students to enhance their future opportunities.</li>
-                <li><span>2. </span>Collaborated with the organization to deliver impactful educational sessions in underserved communities.</li>
-                <li><span>3. </span>Contributed to community outreach by mentoring students and guiding them in skill development.</li>
+        </div>
+        <div class="hero-image fade-in">
+          <div class="image-container">
+            <img src="https://i.postimg.cc/XJ7PCdHW/Whats-App-Image-2025-12-07-at-9-10-18-PM.jpg" alt="Hithesh">
+            <div class="glow-effect"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about section-padding" id="about">
+      <div class="container section-grid">
+        <div class="section-title">
+          <h2>[01] About</h2>
+        </div>
+        <div class="section-content">
+          <h3 class="sharp-heading">Bridging the gap between <span>business strategy</span> and <span>technical
+              execution</span>.</h3>
+          <p class="text-secondary">Based in Chennai, India, currently pursuing my degree at SRM Institute of Science
+            and Technology. My approach combines analytical rigor with creative problem-solving to deliver tech
+            solutions that matter.</p>
+
+          <div class="skills-grid mt-4">
+            <div class="skill-col">
+              <h4>Expertise</h4>
+              <ul class="sharp-list">
+                <li>Business Analytics</li>
+                <li>Data Visualization & Power BI</li>
+                <li>Project Management</li>
+                <li>Web Development (HTML/CSS/JS)</li>
               </ul>
             </div>
-            
-            <div class="experience-item">
-  <h3>NIC College Club – Working Committee</h3>
-  <ul>
-    <li><span>1. </span>Organized and coordinated college events, workshops, and seminars ensuring smooth execution and participation.</li>
-    <li><span>2. </span>Collaborated with club members and faculty coordinators to plan and manage various cultural and technical activities.</li>
-    <li><span>3. </span>Assisted in administrative and logistics tasks, maintaining proper communication between students and the organizing team.</li>
-  </ul>
-</div>
+            <div class="skill-col">
+              <h4>Timeline</h4>
+              <ul class="sharp-list">
+                <li><strong>2022 - 2026</strong> <br> SRM Institute of Science & Technology <br> <span
+                    class="text-muted">CS & Business System</span></li>
+                <li><strong>2008 - 2022</strong> <br> Loyola Matriculation School</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- PROJECTS SECTION -->
+    <section class="projects section-padding" id="projects">
+      <div class="container section-grid">
+        <div class="section-title">
+          <h2>[02] Work</h2>
+        </div>
+        <div class="section-content">
 
-        
+          <div class="project-card fade-in">
+            <div class="project-info">
+              <span class="project-number">01</span>
+              <h3>Retail Power BI Analytics Dashboard</h3>
+              <p class="text-secondary">An interactive dashboard visualizing key retail metrics (sales, profit, customer
+                trends) built to empower data-driven business decisions.</p>
+              <div class="tags">
+                <span>Power BI</span>
+                <span>Data Analytics</span>
+                <span>Business Intelligence</span>
+              </div>
+              <a href="https://github.com/hithesh916/Retail-PowerBI-Analytics-Dashboard.git" target="_blank"
+                class="project-link">View Source <i class="ri-arrow-right-up-line"></i></a>
+            </div>
+            <div class="project-img">
+              <img src="https://i.postimg.cc/d3XGp6hq/Screenshot-2025-08-05-002703.png" alt="Power BI Dashboard">
+            </div>
+          </div>
+
+          <div class="project-card fade-in mt-5">
+            <div class="project-info">
+              <span class="project-number">02</span>
+              <h3>PinBRO Visual Discovery</h3>
+              <p class="text-secondary">A Pinterest-style web application featuring a dynamic masonry grid, live
+                tag-based filtering, and a sleek user interface constructed from modern web technologies.</p>
+              <div class="tags">
+                <span>HTML/CSS</span>
+                <span>JavaScript</span>
+                <span>UI/UX</span>
+              </div>
+              <a href="https://hithesh916.github.io/pinBRO-project-web-/" target="_blank" class="project-link">Live App
+                <i class="ri-arrow-right-up-line"></i></a>
+            </div>
+            <div class="project-img">
+              <img src="https://i.postimg.cc/V6gRGX96/Whats-App-Image-2025-08-05-at-12-29-34-AM.jpg"
+                alt="PinBRO Project">
+            </div>
           </div>
 
         </div>
       </div>
     </section>
 
-    <hr>
-    <div class="project-section">
-      <h2>Projects</h2>
-      <section class="section-one" id="section1">
-        <div class="section1-left">
-          <h4>PinBRO Project</h4>
-          <p>Built a Pinterest-style web app where users can upload and organize image links using tags.
-Created using HTML, CSS, and JavaScript, the site features a responsive grid layout, smooth UI, and live tag-based filtering.
-It’s a cool front-end project that shows off my design sense and JavaScript skills — go ahead and give it a try!
-            <span><a href="https://hithesh916.github.io/pinBRO-project-web-/">CLICK</a></span>
-          </p>
+    <!-- EXPERIENCE SECTION -->
+    <section class="experience section-padding" id="experience">
+      <div class="container section-grid">
+        <div class="section-title">
+          <h2>[03] Experience</h2>
         </div>
-        <div class="section1-right">
-          <img src="https://i.postimg.cc/V6gRGX96/Whats-App-Image-2025-08-05-at-12-29-34-AM.jpg" alt="">
-        </div>
-      </section>
+        <div class="section-content">
 
-      <section class="section-two">
-        <div class="section2-left">
-          <h4>Retail Power BI Analytics Dashboard</h4>
-          <p>Created an interactive Power BI dashboard to visualize key retail metrics like sales, profit, and customer trends.
-Used charts, cards, and filters to make insights super easy to understand and explore — perfect for business decision-making.
-This project highlights my skills in data visualization, dashboard design, and business analytics.
-            <span><a href="https://github.com/hithesh916/Retail-PowerBI-Analytics-Dashboard.git">CLICK</a></span>
-          </p>
+          <div class="exp-item fade-in">
+            <div class="exp-header">
+              <h3>Working Committee Member</h3>
+              <span class="exp-date">Current</span>
+            </div>
+            <h4 class="exp-company">NIC College Club</h4>
+            <p class="text-secondary">Organized and coordinated college events, workshops, and seminars ensuring smooth
+              execution. Managed cross-functional logistics and communication between students and faculty teams for
+              technical activities.</p>
+          </div>
+
+          <div class="exp-item border-top fade-in">
+            <div class="exp-header">
+              <h3>Volunteering & Outreach</h3>
+              <span class="exp-date">Past</span>
+            </div>
+            <h4 class="exp-company">Aide et Action</h4>
+            <p class="text-secondary">Conducted career-building workshops for underprivileged students. Mentored
+              individuals and delivered educational outreach programming dedicated to community development.</p>
+          </div>
+
         </div>
-        <div class="section2-right">
-          <img src="https://i.postimg.cc/d3XGp6hq/Screenshot-2025-08-05-002703.png" alt="">
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact section-padding" id="contact">
+      <div class="container section-grid">
+        <div class="section-title">
+          <h2>[04] Connect</h2>
         </div>
-      </section>
-    </div>
-    <hr>
-    <div class="contact-section">
-      <h2>Contact <span>Me</span></h2>
-      <section class="section-three" id="section3">
-        <div class="contact-fisrt">
-          <p>Let’s connect and build something great together! I’m always open to new projects, creative ideas, or tech-driven collaborations.</p>
+        <div class="section-content contact-flex">
+          <h2 class="sharp-heading">Ready to build something <br /> extraordinary?</h2>
+
+          <div class="contact-links mt-4">
+            <a href="mailto:vshithesh@gmail.com" class="contact-block">
+              <span class="contact-label"><i class="ri-mail-line"></i> Email</span>
+              <span class="contact-value">vshithesh@gmail.com</span>
+            </a>
+            <a href="tel:+916381188916" class="contact-block">
+              <span class="contact-label"><i class="ri-phone-line"></i> Phone</span>
+              <span class="contact-value">+91 63811 88916</span>
+            </a>
+            <a href="https://www.linkedin.com/in/hithesh-sundararajan/" target="_blank" class="contact-block">
+              <span class="contact-label"><i class="ri-linkedin-fill"></i> LinkedIn</span>
+              <span class="contact-value">hithesh-sundararajan</span>
+            </a>
+            <div class="contact-block" style="cursor: default;">
+              <span class="contact-label"><i class="ri-map-pin-line"></i> Location</span>
+              <span class="contact-value">Chennai, India</span>
+            </div>
+          </div>
         </div>
-        <div class="contact-info">
-          <p><span>Email :</span> vshithesh@gmail.com</p>
-             <p><span>linkedin : </span><a href="https://www.linkedin.com/in/hithesh-sundararajan/">Hithesh</a></p>
-        </div>
-      </section>
-    </div>
+      </div>
+    </section>
   </main>
-  <footer>
-   <marquee><h3> Buy me a cup of coffee 😂🍵</h3></marquee>
+
+  <footer class="footer">
+    <div class="container footer-flex">
+      <div class="logo">HITHESH<span class="dot">.</span></div>
+      <p class="text-muted">© 2024. Engineering the future.</p>
+    </div>
   </footer>
+
+  <script>
+    // Sharp Intersection Observer Animations
+    document.addEventListener("DOMContentLoaded", () => {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.1, rootMargin: "0px 0px -50px 0px" });
+
+      document.querySelectorAll('.fade-in, .section-title, .exp-item, .contact-block').forEach(el => {
+        observer.observe(el);
+      });
+
+      // Reveal text staggered effect
+      document.querySelectorAll('.reveal-text span').forEach((span, idx) => {
+        setTimeout(() => {
+          span.classList.add('visible');
+        }, 100 * idx);
+      });
+    });
+  </script>
 </body>
 
 </html>
-
-
