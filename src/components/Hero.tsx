@@ -12,7 +12,7 @@ export default function Hero() {
   const text3Ref = useRef<HTMLDivElement>(null);
   const [imagesLoaded, setImagesLoaded] = useState(false);
 
-  const frameCount = 80;
+  const frameCount = 40;
   const images = useRef<HTMLImageElement[]>([]);
 
   useEffect(() => {
@@ -21,6 +21,7 @@ export default function Hero() {
     const loadImages = async () => {
       const basePath = "/MY-PORTFOLIOO";
       let loaded = 0;
+      // Use the actual number of files found (40)
       for (let i = 1; i <= frameCount; i++) {
         const img = new Image();
         img.src = `${basePath}/assets/frames/ezgif-frame-${String(i).padStart(3, "0")}.png`;
@@ -96,8 +97,8 @@ export default function Hero() {
       scrollTrigger: {
         trigger: containerRef.current,
         start: "top top",
-        end: "+=500%", // Pin for 5 screens worth of scrolling
-        scrub: 0.5,
+        end: "+=600%", // Slightly longer for smoother feel
+        scrub: 1, // Increased scrub for smoother interpolation
         pin: true,
         anticipatePin: 1,
       },
