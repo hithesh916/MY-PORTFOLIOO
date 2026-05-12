@@ -37,6 +37,7 @@ export default function Hero() {
         images.current.push(img);
       }
       setImagesLoaded(true);
+      ScrollTrigger.refresh();
     };
 
     loadImages();
