@@ -12,7 +12,7 @@ export default function Hero() {
   const text3Ref = useRef<HTMLDivElement>(null);
   const [imagesLoaded, setImagesLoaded] = useState(false);
 
-  const frameCount = 40;
+  const frameCount = 80;
   const images = useRef<HTMLImageElement[]>([]);
 
   useEffect(() => {
