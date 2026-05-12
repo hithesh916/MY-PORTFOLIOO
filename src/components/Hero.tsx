@@ -19,10 +19,11 @@ export default function Hero() {
     gsap.registerPlugin(ScrollTrigger);
 
     const loadImages = async () => {
+      const basePath = "/MY-PORTFOLIOO";
       let loaded = 0;
       for (let i = 1; i <= frameCount; i++) {
         const img = new Image();
-        img.src = `/assets/frames/ezgif-frame-${String(i).padStart(3, "0")}.png`;
+        img.src = `${basePath}/assets/frames/ezgif-frame-${String(i).padStart(3, "0")}.png`;
         await new Promise((resolve) => {
           img.onload = () => {
             loaded++;
